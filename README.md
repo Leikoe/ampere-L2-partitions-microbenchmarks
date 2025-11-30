@@ -16,7 +16,8 @@ This repo is an attempt at reproducing the microbenchmarks [presented at GTC 202
 ```shell
 make # to build main
 ./main > l2_latency_results.csv
-python plot_results.py
+python plot_latencies_hist.py
+python plot_latencies_vs_offset.py
 ```
 
 to change the #SMs and TARGET_SMID, modify `main.cu`'s constants at the top of the file...
