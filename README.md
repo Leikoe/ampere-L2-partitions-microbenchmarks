@@ -21,3 +21,10 @@ python plot_latencies_vs_offset.py
 ```
 
 to change the #SMs and TARGET_SMID, modify `main.cu`'s constants at the top of the file...
+
+
+### Mapping the SM ids to near partition id
+```shell
+make map
+CUDA_VISIBLE_DEVICES=<URDEVICEID> ./map # example: CUDA_VISIBLE_DEVICES=3 ./map
+```
