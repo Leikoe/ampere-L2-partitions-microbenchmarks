@@ -37,4 +37,4 @@ with open("l2_latency_results.csv") as csvfile:
     plt.ylabel("Load latency (Cycles)")
     plt.xlabel("Offset (Bytes)")
     plt.title(f"L2 hit latencies for SM {smid}")
-    plt.savefig(f"l2_latency_histogram_smid{smid}.png")
+    plt.savefig(f"l2_latency_vs_offset_smid{smid}.png")

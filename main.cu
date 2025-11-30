@@ -3,7 +3,7 @@
 #include <cuda_runtime.h>
 
 constexpr uint64_t N = 1024 * 1024;
-constexpr int TARGET_SM = 1;
+constexpr int TARGET_SM = 0;
 constexpr int TOTAL_SMS = 96; // on A100D
 
 __device__ __forceinline__ int load_global_strict(const int* ptr) {
