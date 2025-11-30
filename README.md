@@ -4,7 +4,7 @@ This repo is an attempt at reproducing the microbenchmarks [presented at GTC 202
 
 
 ![latencies of smid 0 vs offset](assets/l2_latency_vs_offset_smid0.png)
-![latencies of smid 2 vs offset](assets/l2_latency_histogram_smid2.png)
+![latencies of smid 2 vs offset](assets/l2_latency_vs_offset_smid2.png)
 
 
 
