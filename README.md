@@ -5,3 +5,14 @@ This repo is an attempt at reproducing the microbenchmarks [presented at GTC 202
 
 ![latencies of smid 0](assets/l2_latency_histogram_smid0.png)
 ![latencies of smid 2](assets/l2_latency_histogram_smid2.png)
+
+
+## How to use
+
+```shell
+make # to build main
+./main > l2_latency_results.csv
+python plot_results.py
+```
+
+to change the #SMs and TARGET_SMID, modify `main.cu`'s constants at the top of the file...
